@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <style>
+        .table {
+    width: 1000px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.table th {
+    background-color: navy;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid navy;
+}
+
+.table tr:hover {
+    background-color: darkkhaki;
+    transition: 0.3s;
+}
+
+audio {
+    width: 200px;
+}
+        .container {
+            width: 1000px;
+            height: 1000px;
+            display: flex;
+            background-color: blue;
+            justify-content: center;
+            align-items: center;
+        }
+        .video-border {
+            border: 3px solid red;
+            background: linear-gradient(135deg, #ff4d4d, #4d79ff);
+            padding: 15px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    </div>
+
+    <p id="text-color-red"> ISHOWSPEED</p>
+    <p id="text-underline"> WORLD CUP 2026 BEST SONG OF THE FIFA YEAR</p>
+    <video class="video-border" width="1000" height="500" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+      <br>
+         <table border="1" class="table">
+            <th>No. </th>
+            <th>Artist </th>
+            <th>Album <th>
+            <th>Song </th>
+            <th>Play </th>
+            <tr>
+                <td>1 </td>
+                <td>iShowSpeed </td>
+                <td>FIFA WORLD CUP</td>
+                <td>WORLDCUP 2026</td>
+                <td>
+                    <audio controls>
+                        <source src="sound.mp3" type="audio/mpeg">
+                    </audio>
+                <td>
+            </tr>
+         </table>
+    <script>
+    alert ('Hello World');
+    document.getElementById("text-color-red").style.color = "red";
+    document.getElementById("text-underline").style.textDecoration = "underline";
+    </script>
+</body>
+</html>
